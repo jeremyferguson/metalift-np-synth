@@ -144,10 +144,12 @@ fnModels: Dict[str, Callable[..., ReturnValue]] = {
     "_Z8newTupleIiiEP3tupIT_T0_Ev": newTuple,
     "_Z9MakeTupleIJiiEEP3tupIJDpT_EES2_": MakeTuple,
     "_Z9MakeTupleIJiiiEEP3tupIJDpT_EES2_": MakeTuple,
+    "_Z9MakeTupleIJiiiiEEP3tupIJDpT_EES2_": MakeTuple,
     "_Z8tupleGetIJiiiELi0EENSt3__19enable_ifIXltT0_sZT_EiE4typeEP3tupIJDpT_EEi": tupleGet,
     "_Z8tupleGetIJiiELi0EENSt3__19enable_ifIXltT0_sZT_EiE4typeEP3tupIJDpT_EEi": tupleGet,
     "_ZL8tupleGetIJiiEEDaP3tupIJDpT_EEi": tupleGet,
     "_Z8tupleGetIJiiiiELi0EENSt3__19enable_ifIXltT0_sZT_EiE4typeEP3tupIJDpT_EEi": tupleGet,
+    "_Z8tupleGetIJiiiiELi0EENSt9enable_ifIXltT0_sZT_EiE4typeEP3tupIJDpT_EEi": tupleGet,
     # TODO(shadaj): investigate why this is not necessary for all devs
     "_Z8tupleGetIJiiELi0EENSt9enable_ifIXltT0_sZT_EiE4typeEP3tupIJDpT_EEi": tupleGet,
 }
